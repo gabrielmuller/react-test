@@ -1,0 +1,14 @@
+.navbar {
+    height: 50px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    vertical-align: center;
+}
+
+:root {
+    --primary-color: rgba(242, 71, 71, 1);
+    --white: white
+}
