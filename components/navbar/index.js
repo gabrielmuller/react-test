@@ -7,7 +7,7 @@ import Container from '../container'
 const Navbar = props => (
     <nav className="navbar">
         <Container>
-            Choque de Cultura
+            Vídeos questionáveis
         </Container>
     </nav>
 );

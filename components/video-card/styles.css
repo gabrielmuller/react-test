@@ -1,0 +1,26 @@
+.video-card {
+    height: 160px;
+    border: 1px solid var(--grey-light);
+}
+.video-card__thumb {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+.video-card__details {
+    display: inline-block;
+    width: calc(60% - 20px);
+    height: 100%;
+    vertical-align: top;
+    padding: 10px;
+}
+.video-card__title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.video-card__date,
+.video-card__description {
+    font-size: 14px;
+    color: var(--grey);
+}
